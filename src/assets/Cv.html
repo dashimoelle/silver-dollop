@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Moel Dash | Cybersecurity Professional</title>    
+    <script src="https://cdn.tailwindcss.com"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+<script>        
+    tailwind.config = {            
+    theme: {                
+    extend: {                    
+    colors: {                        
+    primary: '#3b82f6',                        
+    secondary: '#1e40af',                        
+    dark: '#1e293b',                        
+    light:'#f8fafc'                    
+    }}}}   
+</script>    
+<style>
+    .gradient-bg {            
+        background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    }        
+    .skill-badge {            
+        transition: all 0.3s ease;
+    }        
+    .skill-badge:hover {            
+        transform: translateY(-3px);            
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);        
+    }        
+    .timeline-item:not(:last-child)::after {            
+        content: '';            
+        position: absolute;            
+        left: 18px;            
+        top: 32px;            
+        height: calc(100% - 32px);            
+        width: 2px;            
+        background: #e2e8f0;        
+    }        
+    .contact-form input,        
+    .contact-form textarea {            
+        transition: all 0.3s ease;        
+    }        
+    .contact-form input:focus,        
+    .contact-form textarea:focus {            
+        border-color: #3b82f6;            
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);        
+                            }    
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">    
+ <!-- Header/Navigation -->    
+    <header class="bg-white shadow-sm sticky top-0 z-50">        
+    <div class="container mx-auto px-6 py-4">            
+        <div class="flex justify-between items-center">                
+            <div class="text-2xl font-bold text-primary">Moel Dash
+            </div>                
+            <nav class="hidden md:flex space-x-8">                   
+            <a href="#about" class="hover:text-secondary">About</a>                    
+            <a href="#skills" class="hover:text-secondary">Skills</a>                    
+            <a href="#experience" class="hover:text-secondary">Experience</a>                    
+            <a href="#education" class="hover:text-secondary">Education</a>                    
+            <a href="#contact" class="hover:text-secondary">Contact</a>                
+            </nav>                
+            <button class="md:hidden focus:outline-none" id="menu-toggle">                    
+                <i class="fas fa-bars text-xl"></i>                
+            </button>            
+        </div>            
+        <div class="md:hidden hidden mt-4" id="mobile-menu">                
+            <div class="flex flex-col space-y-3">                    
+            <a href="#about" class="block hover:text-secondary">About</a>                    
+            <a href="#skills" class="block hover:text-secondary">Skills</a>                    
+            <a href="#experience" class="block hover:text-secondary">Experience</a>                    
+            <a href="#education" class="block hover:text-secondary">Education</a>                    
+            <a href="#contact" class="block hover:text-secondary">Contact</a>                
+            </div>            
+        </div>        
+    </div>    
+    </header>    
+<!-- Hero Section -->    
+    <section class="gradient-bg text-white py-20">        
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">            
+        <div class="md:w-1/2 mb-10 md:mb-0">                
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Moel Dash</h1>               
+        <h2 class="text-2xl md:text-3xl font-semibold mb-6">Cybersecurity & Network Security Professional</h2>                
+        <p class="text-lg mb-8">Detail-oriented cybersecurity specialist with expertise in network security, penetration testing, and secure system architecture.</p>                
+        <div class="flex space-x-4">                    
+            <a href="#contact" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Contact Me</a>                    
+            <a href="#skills" class="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition">View Skills</a>               
+        </div>            
+    </div>            
+    <div class="md:w-1/2 flex justify-center">                
+        <div class="bg-white rounded-full p-2 shadow-xl w-64 h-64 flex items-center justify-center">                    
+            <i class="fas fa-user-shield text-8xl text-primary"></i>                
+        </div>            
+    </div>        
+    </div>    
+    </section>    
+<!-- About Section -->    
+    <section id="about" class="py-16 bg-white">        
+    <div class="container mx-auto px-6">            
+        <h2 class="text-3xl font-bold text-center mb-12">Professional Summary</h2>            
+    <div class="max-w-4xl mx-auto">                
+    <p class="text-lg mb-6">Detail-oriented and curious graduate in Information Security, with strong foundational knowledge in Cybersecurity architecture, network security, and Cybersecurity tools. Highly motivated to apply theoretical knowledge in real-world scenarios and continuously develop technical and professional skills in the cybersecurity field.</p>                
+    <div class="grid md:grid-cols-2 gap-8 mt-8">                    
+    <div>                        
+        <h3 class="text-xl font-semibold mb-4 text-secondary">Core Competencies
+        </h3>                        
+    <ul class="space-y-3">                            
+        <li class="flex items-start">                                
+            <i class="fas fa-check-circle text-primary mt-1 mr-2">
+            </i>                                
+            <span>Known for honesty, integrity, and professionalism
+            </span>                            
+        </li>                            
+        <li class="flex items-start">                                
+            <i class="fas fa-check-circle text-primary mt-1 mr-2">
+            </i>                                
+            <span>Calm, organized, and effective under pressure</span>                            
+        </li>                            
+        <li class="flex items-start">                               
+            <i class="fas fa-check-circle text-primary mt-1 mr-2">
+            </i>                                
+            <span>Strong team player with results-driven mindset</span>                            
+        </li>                            
+        <li class="flex items-start">                               
+            <i class="fas fa-check-circle text-primary mt-1 mr-2">
+            </i>                                
+            <span>Bilingual: Excellent communication skills in French and English (written and spoken)</span>                            
+        </li>
+    </ul>                    
+    </div>                    
+    <div>                        
+        <h3 class="text-xl font-semibold mb-4 text-secondary">Career Focus
+        </h3>                        
+            <ul class="space-y-3">                            
+                <li class="flex items-start">                                
+                    <i class="fas fa-bullseye text-primary mt-1 mr-2">
+                    </i>                                
+                    <span>Cybersecurity architecture and implementation
+                    </span>                            
+                </li>                            
+                <li class="flex items-start">                                
+                    <i class="fas fa-bullseye text-primary mt-1 mr-2">
+                    </i>                                
+                    <span>Network security and vulnerability assessment
+                    </span>                            
+                </li>                            
+                <li class="flex items-start">                                
+                    <i class="fas fa-bullseye text-primary mt-1 mr-2">
+                    </i>                                
+                    <span>Penetration testing and ethical hacking
+                    </span>                            
+                </li>                            
+                <li class="flex items-start">                                
+                    <i class="fas fa-bullseye text-primary mt-1 mr-2">
+                    </i>                                
+                    <span>Secure system administration and cloud security
+                    </span>                            
+                </li>                        
+            </ul>                    
+    </div>                
+    </div>            
+    </div>        
+    </div>    
+    </section>    
+<!-- Skills Section -->    
+    <section id="skills" class="py-16 bg-gray-50">        
+    <div class="container mx-auto px-6">            
+    <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>                        
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">                
+<!-- Programming Languages -->                
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+    <div class="bg-primary p-3 rounded-full mr-4">                            
+        <i class="fas fa-code text-white"></i>                        
+    </div>                        
+        <h3 class="text-xl font-semibold">Programming Languages</h3>                   
+    </div>                    
+    <div class="flex flex-wrap gap-2">                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Python
+        </span>                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Java
+        </span>                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">SQL
+        </span>                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">C
+        </span>                        
+         <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">C++
+        </span>                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Go
+        </span>                        
+        <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Rust
+        </span>                    
+    </div>                
+    </div>                                
+    <!-- Scripting & System -->                
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+    <div class="bg-primary p-3 rounded-full mr-4">                            
+        <i class="fas fa-terminal text-white"></i>                        
+    </div>                        
+        <h3 class="text-xl font-semibold">Scripting & System</h3>                    
+    </div>                   
+    <div class="flex flex-wrap gap-2">                        
+        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full">PowerShell
+        </span>                       
+        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full">Bash
+        </span>                        
+        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full">x86 Assembly
+        </span>                        
+        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full">YAML
+        </span>                        
+        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full">JSON
+        </span>                    
+    </div>               
+    </div>                                
+<!-- Web Technologies -->               
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+    <div class="bg-primary p-3 rounded-full mr-4">                            
+        <i class="fas fa-globe text-white"></i>                        
+    </div>                        
+        <h3 class="text-xl font-semibold">Web Technologies</h3>                    
+    </div>                   
+    <div class="flex flex-wrap gap-2">                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">HTML
+        </span>                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">CSS
+        </span>                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">PHP
+        </span>                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">JavaScript
+        </span>                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">React
+        </span>                       
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Node.js
+        </span>                        
+        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Django
+        </span>                    
+    </div>                
+    </div>                               
+    <!-- Operating Systems -->                
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+        <div class="bg-primary p-3 rounded-full mr-4">                            
+            <i class="fas fa-desktop text-white"></i>                        
+        </div>                       
+            <h3 class="text-xl font-semibold">Operating Systems</h3>                    
+    </div>                    
+    <div class="flex flex-wrap gap-2">                        
+    <span class="skill-badge bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Windows
+    </span>                        
+    <span class="skill-badge bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Linux
+    </span>                       
+    <span class="skill-badge bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">macOS
+    </span>                        
+    <span class="skill-badge bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">Android
+    </span>                    
+    </div>                
+    </div>                                
+    <!-- Cybersecurity Tools -->                
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+    <div class="bg-primary p-3 rounded-full mr-4">                            
+    <i class="fas fa-shield-alt text-white"></i>                        
+    </div>                        
+    <h3 class="text-xl font-semibold">Cybersecurity Tools</h3>                    
+    </div>                    
+    <div class="flex flex-wrap gap-2">                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Kali Linux
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Wireshark
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">OWASP
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Burp Suite
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Metasploit
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Nmap
+    </span>                       
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Snort
+    </span>                        
+    <span class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full">Splunk
+    </span>                    
+    </div>                
+    </div>                                
+    <!-- Infrastructure & Cloud -->                
+    <div class="bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-center mb-4">                        
+    <div class="bg-primary p-3 rounded-full mr-4">                            
+        <i class="fas fa-server text-white"></i>                        
+    </div>                        
+    <h3 class="text-xl font-semibold">Infrastructure & Cloud</h3>                    
+    </div>                    
+    <div class="flex flex-wrap gap-2">                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Network Management
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Server Administration
+        </span>                       
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">AWS
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Azure
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Google Cloud
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Docker
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Kubernetes
+        </span>                        
+        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Terraform
+        </span>                    
+        </div>                
+        </div>            
+        </div>        
+        </div>    
+    </section>    
+<!-- Experience Section -->    
+    <section id="experience" class="py-16 bg-white">        
+        <div class="container mx-auto px-6">            
+            <h2 class="text-3xl font-bold text-center mb-12">Projects & Experience
+            </h2>                        
+        <div class="max-w-4xl mx-auto">                
+<!-- Experience 1 -->                
+        <div class="mb-12 relative timeline-item">                    
+        <div class="flex items-start">                        
+        <div class="bg-primary rounded-full p-2 mr-4 mt-1">                            
+        <i class="fas fa-briefcase text-white"></i>                        
+        </div>                        
+        <div>                            
+            <h3 class="text-xl font-semibold">Independent Investigative Journalist & Podcast Creator
+            </h3>                            
+            <p class="text-gray-600 mb-2">Freelance | Montreal, QC | 2024 – Present
+            </p>                            
+            <ul class="list-disc pl-5 space-y-2">                                
+                <li>Initiated an independent journalism project focused on social reform, community issues, and systemic analysis in Canada.
+                </li>                                
+                <li>Currently developing a story-driven podcast that presents investigative work in an engaging, visually appealing, and thought-provoking format.
+                </li>                               
+                <li>Combines journalism with creative direction to capture audience interest through compelling storytelling and visual identity.
+                </li>                               
+                <li>Involved in deep research, interviews, content scripting, and digital media production.</li>                          
+            </ul>                       
+        </div>                    
+        </div>                
+        </div>                                
+<!-- Experience 2 -->                
+    <div class="mb-12 relative timeline-item">                    
+    <div class="flex items-start">                        
+    <div class="bg-primary rounded-full p-2 mr-4 mt-1">                            
+        <i class="fas fa-lightbulb text-white"></i>                        
+    </div>                        
+    <div>                            
+        <h3 class="text-xl font-semibold">Founder & Project Lead – Community Tech & Media Initiatives</h3>                           
+        <p class="text-gray-600 mb-2">Self-Directed Projects | Montreal, QC | 2023 – Present
+        </p>                            
+        <ul class="list-disc pl-5 space-y-2">                                
+            <li>Launched Community-Building & Digital Empowerment Projects: Designed and developed multiple initiatives focused on building digital platforms for emerging creators.
+            </li>                                
+            <li>Website Development: Created comprehensive web solutions for small communities and creative entrepreneurs.
+            </li>                                
+            <li>Mrena Projects: Conceptualized a framework supporting multimedia content, forums, and local engagement platforms.
+            </li>                                
+            <li>App Incubation: Developed prototypes for apps aimed at helping new creators grow audiences and monetize content.
+            </li>                                
+            <li>Gained hands-on experience with tools for video editing, podcast production, and live-streaming.
+            </li>                                
+            <li>Set up content pipelines and workflows for creators, including branding and audience interaction strategies.
+            </li>                            
+        </ul>                        
+    </div>                    
+    </div>                
+    </div>                                
+<!-- Experience 3 -->                
+    <div class="mb-12 relative timeline-item">                    
+    <div class="flex items-start">                        
+    <div class="bg-primary rounded-full p-2 mr-4 mt-1">                            
+    <i class="fas fa-shield-alt text-white"></i>                        
+    </div>                        
+    <div>                                
+        <h3 class="text-xl font-semibold">Cybersecurity & Network Virtualization Project
+        </h3>
+        <p class="text-gray-600 mb-2">Bois-de-Boulogne College – Final Year Capstone Project | 2023
+        </p>                            
+        <ul class="list-disc pl-5 space-y-2">                                
+            <li>Deployed a full-scale virtualized network infrastructure
+            </li>                                
+            <li>Developed professional installation guides and user documentation
+            </li>                                
+            <li>Installed and configured secure Linux and Windows servers
+            </li>                                
+            <li>Implemented Microsoft Windows Server (AD, WDS, GPO, IntelliMirror, WSUS)
+            </li>                                
+            <li>Set up Linux-based servers (DNS, DHCP, Email)
+            </li>                                
+            <li>Configured VPN, firewalls, and remote secure access
+            </li>                                
+            <li>Integrated client-server messaging systems
+            </li>                                
+            <li>Installed surveillance systems and cloud services (AWS, Hyper-V, Azure)
+            </li>                            
+        </ul>                        
+        </div>                    
+        </div>               
+        </div>            
+        </div>        
+        </div>    
+        </section>    
+<!-- Education Section -->    
+    <section id="education" class="py-16 bg-gray-50">        
+    <div class="container mx-auto px-6">            
+    <h2 class="text-3xl font-bold text-center mb-12">Education & Certifications
+    </h2>                        
+    <div class="max-w-4xl mx-auto">                
+<!-- Education 1 -->                
+    <div class="mb-8 bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-start">                        
+    <div class="bg-primary rounded-full p-3 mr-4">                            
+        <i class="fas fa-graduation-cap text-white"></i>                        
+    </div>                        
+    <div>                            
+        <h3 class="text-xl font-semibold">A.E.C. in Cybersecurity & Network Administration
+        </h3>                            
+        <p class="text-gray-600 mb-2">Bois-de-Boulogne College, Montreal, QC | 2019 – 2023
+        </p>                            
+        <p class="mb-2">Courses included:</p>                            
+        <ul class="list-disc pl-5 space-y-1">                                
+            <li>Cyber Defense</li>                               
+            <li>Network Architecture</li>                                
+            <li>Database & Distributed Systems Security</li>                                <li>Cryptography</li>                               
+            <li>Ethical Hacking</li>                                
+            <li>Incident Response</li>                            
+        </ul>                        
+    </div>                    
+    </div>                
+    </div>                                
+<!-- Education 2 -->                
+    <div class="mb-8 bg-white p-6 rounded-lg shadow">                    
+    <div class="flex items-start">                        
+    <div class="bg-primary rounded-full p-3 mr-4">                            
+        <i class="fas fa-graduation-cap text-white"></i>                        
+    </div>                        
+    <div>                            
+    <h3 class="text-xl font-semibold">A.E.C. in Business Launch & Management
+    </h3>                            
+        <p class="text-gray-600 mb-2">Multicultural Academy Canada, Montreal, QC | 2016 – 2017
+        </p>                            
+        <ul class="list-disc pl-5 space-y-1">                                
+            <li>Focused on entrepreneurial principles, business planning, and management practices
+            </li>                                
+            <li>Market analysis and financial planning</li>                                <li>Business law and regulations</li>                            
+        </ul>                        
+    </div>                    
+    </div>                
+    </div>                               
+<!-- Education 3 -->                
+    <div class="mb-8 bg-white p-6 rounded-lg shadow">                    
+        <div class="flex items-start">                        
+            <div class="bg-primary rounded-full p-3 mr-4">                            
+                <i class="fas fa-graduation-cap text-white"></i>                        
+            </div>                       
+            <div>                            
+            <h3 class="text-xl font-semibold">A.E.C. in Advanced Chemical Analysis
+            </h3>                            
+            <p class="text-gray-600 mb-2">Université du Québec à Montréal (UQAM), Montreal, QC | 2013 – 2016</p>                            
+            <ul class="list-disc pl-5 space-y-1">                                
+                <li>Training in high-tech laboratory techniques for industrial and research environments</li>                                
+                <li>Analytical instrumentation</li>                                
+                <li>Quality control procedures</li>                            
+            </ul>                        
+        </div>                    
+    </div>                
+</div>                                
+<!-- Education 4 -->                
+<div class="mb-8 bg-white p-6 rounded-lg shadow">                    
+<div class="flex items-start">                        
+<div class="bg-primary rounded-full p-3 mr-4">                            
+<i class="fas fa-graduation-cap text-white"></i>                        
+</div>                        
+<div>                            
+<h3 class="text-xl font-semibold">Minor Program in Organic Chemistry (Pre-Master's Preparation)
+</h3>                            
+<p class="text-gray-600 mb-2">Université de Montréal (UdeM), Montreal, QC | 2013 – 2016
+</p>                           
+<ul class="list-disc pl-5 space-y-1">                                
+    <li>Specialized coursework in organic chemistry and lab technologies
+    </li>                                
+    <li>Synthesis and characterization of organic compounds</li>                                <li>Spectroscopic analysis techniques</li>                            
+</ul>                        
+</div>                    
+</div>                
+</div>                                
+<!-- Certifications -->                
+<div class="bg-white p-6 rounded-lg shadow">                    
+<h3 class="text-xl font-semibold mb-4">Certifications</h3>                    
+<div class="grid md:grid-cols-2 gap-4">                        
+<div class="flex items-start">                            
+    <div class="bg-primary rounded-full p-2 mr-3 mt-1">                                
+        <i class="fas fa-certificate text-white"></i>                            
+</div>                            
+<div>                                
+<h4 class="font-medium">Cisco CCNA 1-4</h4>                                
+<p class="text-gray-600 text-sm">2020 – 2021</p>                            
+</div>                        
+</div>                        
+<div class="flex items-start">                            
+    <div class="bg-primary rounded-full p-2 mr-3 mt-1">                                
+        <i class="fas fa-certificate text-white"></i>                            
+</div>                            
+<div>                                
+    <h4 class="font-medium">eJPT (eLearnSecurity Junior Penetration Tester)
+    </h4>                                
+<p class="text-gray-600 text-sm">In Progress</p>                            
+</div>                        
+</div>                        
+<div class="flex items-start">                          
+    <div class="bg-primary rounded-full p-2 mr-3 mt-1">                                
+<i class="fas fa-certificate text-white"></i>                            
+</div>                            
+<div>                                
+    <h4 class="font-medium">CompTIA Security+</h4>                                
+    <p class="text-gray-600 text-sm">Planned</p>                            
+</div>                        
+</div>                        
+<div class="flex items-start">                            
+    <div class="bg-primary rounded-full p-2 mr-3 mt-1">                                
+        <i class="fas fa-certificate text-white"></i>                            
+    </div>                            
+    <div>                                
+        <h4 class="font-medium">AWS Certified Security - Specialty
+        </h4>                                
+        <p class="text-gray-600 text-sm">Planned</p>                            
+    </div>                        
+</div>                    
+</div>                
+</div>            
+</div>        
+</div>    
+</section>    
+<!-- Contact Section -->    
+<section id="contact" class="py-16 bg-white">        
+<div class="container mx-auto px-6">            
+<h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>                        
+<div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">                
+    <div>                    
+        <h3 class="text-xl font-semibold mb-4">Send a Secure Message</h3>                    
+        <p class="mb-6">Interested in working together or have questions about my services? Send me a secure message and I'll get back to you as soon as possible.
+        </p>                                        
+        <form action="https://formsubmit.co/el/confirm/80ae7f93047f95657fbb1883681f47b6" method="POST" id="contactForm"  class="contact-form">                        
+            <div class="mb-4">                            
+                <label for="name" class="block text-gray-700 mb-2">Name
+                </label>                            
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-primary" required>                        
+            </div>                        
+            <div class="mb-4">                            
+                <label for="email" class="block text-gray-700 mb-2">Email
+                </label>                            
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-primary" required>                      
+            </div>                        
+            <div class="mb-4">                            
+                <label for="subject" class="block text-gray-700 mb-2">Subject
+                </label>                            
+                <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-primary" required>                      
+            </div>                       
+            <div class="mb-4">                           
+                <label for="message" class="block text-gray-700 mb-2">Message
+                </label>                            
+                <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-primary" required>
+                </textarea>                        
+            </div>                        
+            <div class="mb-4">                            
+                <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY">
+                </div>                        
+            </div>                        
+            <button type="submit" class="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition w-full">                            Send Message 
+                <i class="fas fa-paper-plane ml-2"></i>                     
+            </button>  
+            <input type="hidden" name="_template" value="table">               
+        </form>                
+    </div>                                
+    <div>
+        <h3 class="text-xl font-semibold mb-4">Contact Information</h3>                  
+        <div class="space-y-4">                        
+            <div class="flex items-start">                            
+                <div class="bg-primary rounded-full p-3 mr-4">                                
+                    <i class="fas fa-envelope text-white"></i>                            
+                </div>                            
+                <div>                                
+                    <h4 class="font-medium">Email</h4>                                
+                    <p class="text-gray-600">Via secured message is better</p>                            
+                </div>                        
+            </div>                        
+            <div class="flex items-start">                            
+                <div class="bg-primary rounded-full p-3 mr-4">                                
+                    <i class="fas fa-map-marker-alt text-white"></i>                            
+                </div>                            
+                <div>                                
+                    <h4 class="font-medium">Location</h4>                                
+                    <p class="text-gray-600">QC, Canada</p>                            
+                </div>                        
+            </div>                        
+            <div class="flex items-start">                            
+                <div class="bg-primary rounded-full p-3 mr-4">                                
+                    <i class="fas fa-globe text-white"></i>                            
+                </div>                            
+                <div>                                
+                    <h4 class="font-medium">Languages</h4>                                
+                    <p class="text-gray-600">English (Fluent), French (Fluent)
+                    </p>                            
+                </div>                        
+            </div>                    
+        </div>                                        
+        
+    </div>            
+</div>        
+</div>    
+</section>    
+<!-- Footer -->    
+<footer class="bg-dark text-white py-8">        
+<div class="container mx-auto px-6">            
+<div class="flex flex-col md:flex-row justify-between items-center">                
+<div class="mb-4 md:mb-0">                    
+<h3 class="text-xl font-bold">Moel Dash</h3>                    
+<p class="text-gray-400">Cybersecurity & Network Security Professional</p>                
+</div>                
+<div class="flex space-x-6">                       
+<a href="#about" class="hover:text-primary transition">About</a>                    
+<a href="#skills" class="hover:text-primary transition">Skills</a>                    
+<a href="#experience" class="hover:text-primary transition">Experience</a>                    
+<a href="#contact" class="hover:text-primary transition">Contact</a>                
+</div>            
+</div>            
+<div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">                
+<p>&copy; 2023 Moel Dash. All rights reserved.</p>            
+</div>        
+</div>    
+</footer>    
+ <script>        
+// Mobile menu toggle //
+document.getElementById('menu-toggle').addEventListener('click', function() {            
+    const menu = document.getElementById('mobile-menu');            
+    menu.classList.toggle('hidden');        
+});        
+// Form submission //
+document.getElementById('contactForm').addEventListener('submit', function(e) {            
+    e.preventDefault();                        
+    // Here you would normally send the form data to your server            
+    // // For this example, we'll just show an alert  //          
+alert('Thank you for your message! I will get back to you soon.');            
+    this.reset();        
+    });       
+    //  // Smooth scrolling for anchor links//        
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {            
+    anchor.addEventListener('click', function (e) {                
+        e.preventDefault();                                
+        const targetId = this.getAttribute('href');                
+        const targetElement = document.querySelector(targetId);                                
+        if (targetElement) {                    
+            window.scrollTo({                        
+                top: targetElement.offsetTop - 80,                        
+                behavior: 'smooth'                    
+            });                                        
+// Close mobile menu if open //                   
+const mobileMenu = document.getElementById('mobile-menu');                    
+if (!mobileMenu.classList.contains('hidden')) {                        
+    mobileMenu.classList.add('hidden');                    
+    }                
+    }            
+    });        
+    });    
+</script>
+</body>
+</html>
+
+            
+          
+          
+          
+        
+        
+      
+    

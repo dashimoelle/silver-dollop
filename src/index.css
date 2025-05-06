@@ -1,0 +1,30 @@
+
+
+.gradient-bg {            
+  background: linear-gradient(135deg, #354e77 0%, #482675 100%);
+}        
+.skill-badge {            
+  transition: all 0.3s ease;
+}        
+.skill-badge:hover {            
+  transform: translateY(-3px);            
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);        
+}        
+.timeline-item:not(:last-child)::after {            
+  content: '';            
+  position: absolute;            
+  left: 18px;            
+  top: 32px;            
+  height: calc(100% - 32px);            
+  width: 2px;            
+  background: #26062e;        
+}        
+.contact-form input,        
+.contact-form textarea {            
+  transition: all 0.3s ease;        
+}        
+.contact-form input:focus,        
+.contact-form textarea:focus {            
+  border-color: #3b82f6;            
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);        
+                      }    
