@@ -12,10 +12,14 @@
     <script type="module" src="/src/main.tsx"></script>
     <script>        
       // Mobile menu toggle //
-      document.getElementById('menu-toggle').addEventListener('click', function() {            
-          const menu = document.getElementById('mobile-menu');            
-          menu.classList.toggle('hidden');        
-      });        
+      document.addEventListener('DOMContentLoaded', function() {            
+          const menuToggle = document.getElementById('menu-toggle');            
+          const mobileMenu = document.getElementById('mobile-menu');            
+          menuToggle.addEventListener('click', function() {                
+              mobileMenu.classList.toggle('hidden');            
+          });        
+      });
+          
       // Form submission //
       document.getElementById('contactForm').addEventListener('submit', function(e) {            
           e.preventDefault();                        
